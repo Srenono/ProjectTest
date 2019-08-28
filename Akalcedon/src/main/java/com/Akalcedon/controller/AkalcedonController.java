@@ -8,8 +8,13 @@ public class AkalcedonController {
 	
 	
 	@GetMapping("/test")
-	public String index() {
+	public String test() {
 		return "test";
+	}
+	
+	@GetMapping("/accueil") 
+	public String accueil() {
+		return "accueil";
 	}
 
 }
