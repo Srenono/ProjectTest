@@ -51,5 +51,20 @@ public class AkalcedonController {
 		return "postNotes";
 	}
 	
+	@GetMapping("/all-professors") 
+	public String listProfesseur() {
+		return "all-professors";
+	}
+	
+	@GetMapping("/add-professor") 
+	public String addProfesseur() {
+		return "add-professor";
+	}
+	
+	@GetMapping("/editNotes") 
+	public String editNotes() {
+		return "editNotes";
+	}
+	
 }
  
