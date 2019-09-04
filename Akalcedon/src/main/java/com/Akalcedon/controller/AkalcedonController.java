@@ -66,5 +66,19 @@ public class AkalcedonController {
 		return "editNotes";
 	}
 	
+	@GetMapping("/mailbox") 
+	public String mailbox() {
+		return "mailbox";
+	}
+	
+	@GetMapping("/editMail") 
+	public String editMail() {
+		return "editMail";
+	}
+	
+	@GetMapping("/viewMail")
+	public String viewMail() {
+		return "viewMail";
+	}
 }
  
