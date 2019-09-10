@@ -12,23 +12,19 @@
 <body>
 
 
-<div  th:replace="menuprincipale :: menuprincipale"> </div> 
-<div class="all-content-wrapper">
-
-  <div class="header-advance-area">
-  
-
- <div lang="en" th:replace="hedearBody :: hedearBody">  </div> 
-   
-<div class="contraint" style="margin-left: 2%;">
-
-	<div class="row">
- 		
- 		<div class="contraint" style="margin-right: 2%;">
- 		
-         <div class="analytics-sparkle-area" style="margin-top: 7%;">
-            
-            
+  <div  th:replace="menuprincipale :: menuprincipale"> </div> 
+   <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+           <div lang="en" th:replace="hedearBody :: hedearBody"> </div> 
             
             
             <div class="container-fluid">
@@ -36,7 +32,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
-                                <h5>Payement entre </h5>
+                                <h5><a href="#">Flux financiers entrées </a></h5>
                                 <h2><span class="counter">50000</span> DH <span class="tuition-fees">par inscription</span></h2>
                              	
                                 <span class="text-success">20%</span>
@@ -49,8 +45,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="analytics-sparkle-line reso-mg-b-30">
                             <div class="analytics-content">
-                                <h5>Payement facture</h5>
-                                <h2><span class="counter">30000</span>  DH<span class="tuition-fees">par transport</span></h2>
+                                <h5><a href="#">Flux financiers sorties </a></h5>
+                                <h2><span class="counter">30000</span>  DH<span class="tuition-fees">par jour</span></h2>
                                 <span class="text-danger">30%</span>
                                 <div class="progress m-b-0">
                                     <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%;"> <span class="sr-only">230% Complete</span> </div>
@@ -61,7 +57,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="analytics-sparkle-line reso-mg-b-30 table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
-                                <h5>Payement employer</h5>
+                                <h5><a href="#">Bulletins de salaire</a></h5>
                                 <h2><span class="counter">20000</span> DH<span class="tuition-fees">par employer</span></h2>
                                 <span class="text-info">60%</span>
                                 <div class="progress m-b-0">
@@ -73,7 +69,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="analytics-sparkle-line table-mg-t-pro dk-res-t-pro-30">
                             <div class="analytics-content">
-                                <h5>le nombre d’inscriptions</h5>
+                                <h5><a href="#">Le nombre d’inscriptions</a></h5>
                                 <h2><span class="counter">3500</span> <span class="tuition-fees">élèves</span></h2>
                                 <span class="text-inverse">80%</span>
                                 <div class="progress m-b-0">
@@ -84,8 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
-	</div>
+  
 	<div class="contraint" style="margin-left: 2%;">
  <div class="row" >
   		<div class="contraint" style="margin-right: 2%;">

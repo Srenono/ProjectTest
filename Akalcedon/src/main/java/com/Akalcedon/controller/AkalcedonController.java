@@ -35,11 +35,9 @@ public class AkalcedonController {
 	}
 	
 	
-	@GetMapping("/evenement") 
-	public String evenement() {
-		return "evenement";
-	}
-	
+	/*
+	 * @GetMapping("/evenement") public String evenement() { return "evenement"; }
+	 */
 	@GetMapping("/profilEtudiant") 
 	public String profilEtudiant() {
 		return "profilEtudiant";
